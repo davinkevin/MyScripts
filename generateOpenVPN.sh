@@ -5,7 +5,7 @@ certificatName=$1;
 
 #-- Configuration : 
 OPEN_VPN_LOCATION=/etc/openvpn/;
-DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+DIR=`pwd`
 
 #-- Execution
 cd $OPEN_VPN_LOCATION;
